@@ -31,6 +31,11 @@ public class Restaurants
                 System.out.println("All the previous transactions are: ");
                 break;
             }
+            else if(ch == 8)
+            {
+                System.out.println("Thank you");
+                System.exit(0);
+            }
             else
             {
                 quit=false;
