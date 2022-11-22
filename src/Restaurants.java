@@ -51,11 +51,12 @@ public class Restaurants
             {
                 sum+=qt[i]*rate[i];
                 System.out.println(s[i]+"*   "+qt[i]+"=="+qt[i]*rate[i]+"rs");
-                System.out.println("Total bill to be paid " + sum + "rs");
-                System.out.println("Thank you");
-            }
-        }
 
+            }
+
+        }
+        System.out.println("Total bill to be paid " + sum + "rs");
+        System.out.println("Thank you");
     }
 
 }
