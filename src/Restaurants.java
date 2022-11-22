@@ -26,7 +26,11 @@ public class Restaurants
                 int q=input.nextInt();
                 qt[ch-1]+=q;
             }
-
+            else if(ch == 7)
+            {
+                System.out.println("All the previous transactions are: ");
+                break;
+            }
             else
             {
                 quit=false;
